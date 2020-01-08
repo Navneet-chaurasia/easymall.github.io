@@ -214,7 +214,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\">\n    <div class=\"col\">\n        reghrhrrhrh\n    </div>\n\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\">\n    <div class=\"col\">\n       this is footer\n       this is footer\n       this is footer\n    </div>\n\n</div>\n");
 
 /***/ }),
 
@@ -4150,4 +4150,3 @@ module.exports = __webpack_require__(/*! E:\Bridal-Cart\Bridal-Cart\src\main.ts 
 /***/ })
 
 },[[0,"runtime","vendor"]]]);
-//# sourceMappingURL=main-es2015.js.map

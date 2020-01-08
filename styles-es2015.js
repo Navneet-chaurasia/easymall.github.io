@@ -383,4 +383,3 @@ module.exports = __webpack_require__(/*! E:\Bridal-Cart\Bridal-Cart\src\styles.c
 /***/ })
 
 },[[3,"runtime"]]]);
-//# sourceMappingURL=styles-es2015.js.map

@@ -6377,4 +6377,3 @@ module.exports = __webpack_require__(/*! E:\Bridal-Cart\Bridal-Cart\node_modules
 /***/ })
 
 },[[2,"runtime"]]]);
-//# sourceMappingURL=polyfills-es2015.js.map
