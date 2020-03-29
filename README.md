@@ -3,6 +3,10 @@ Easy Mall is an e-commerce website developed using angular 7 framework.
 In Easy Mall several category of products are available which you can browse and can buy.
 In Easy Mall you can add products into your cart or can directly buy them.But in order to buy products 
 or add into your cart user need to be looged in.
+
+<img src="https://github.com/Navneet-chaurasia/easymall.github.io/blob/master/easymall%20images/Screenshot_20200329_104713_com.huawei.himovie.overseas.jpg" width="100" height="100">
+
+
 ![Image description](https://github.com/Navneet-chaurasia/easymall.github.io/blob/master/easymall%20images/Screenshot_20200329_104713_com.huawei.himovie.overseas.jpg?s=250)
 
 
