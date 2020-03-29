@@ -7,7 +7,7 @@ or add into your cart user need to be looged in.
 <img src="https://github.com/Navneet-chaurasia/easymall.github.io/blob/master/easymall%20images/Screenshot_20200329_104713_com.huawei.himovie.overseas.jpg" width="400" >
 
 
-<img src="https://github.com/Navneet-chaurasia/easymall.github.io/blob/master/easymall%20images/Screenshot_20200329_104713_com.huawei.himovie.overseas.jpg" width="400" >
+<img src="https://github.com/Navneet-chaurasia/easymall.github.io/blob/master/easymall%20images/Screenshot_20200329_104713_com.huawei.himovie.overseas.jpg" width="400" style="float:right">
 
 
 For making an account in EasyMall user required an email address, name and a password.
