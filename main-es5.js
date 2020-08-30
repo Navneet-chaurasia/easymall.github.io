@@ -2560,7 +2560,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.http = http;
         this.errorHandler = errorHandler; //api url
 
-        this.loginUrl = "https://www.blogsar.com/easy_mall_apis/loginAdmin.php"; //headers currently not in use
+        this.loginUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/loginAdmin.php"; //headers currently not in use
 
         this.httpOptions = {
           headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({
@@ -2653,7 +2653,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.http = http;
         this.errorHandler = errorHandler; //api url
 
-        this.signUpUrl = "https://www.blogsar.com/easy_mall_apis/adminSignUp.php"; //headers currently not in use
+        this.signUpUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/adminSignUp.php"; //headers currently not in use
 
         this.httpOptions = {
           headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({
@@ -2745,9 +2745,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/createCategory.php";
-        this.get_category_url = "https://www.blogsar.com/easy_mall_apis/getCategories.php";
-        this.deleteURL = "https://www.blogsar.com/easy_mall_apis/deleteCategory.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/createCategory.php";
+        this.get_category_url = "https://blogsar.000webhostapp.com/easy_mall_apis/getCategories.php";
+        this.deleteURL = "https://blogsar.000webhostapp.com/easy_mall_apis/deleteCategory.php";
       }
 
       _createClass(CategoryServicesService, [{
@@ -2852,7 +2852,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.http = http;
         this.cookieService = cookieService;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/checkAdminLogin.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/checkAdminLogin.php";
         this.data = {
           "token": this.cookieService.get('ASID')
         };
@@ -2942,9 +2942,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.getCoroselsUrl = "https://www.blogsar.com/easy_mall_apis/getCoroselImages.php";
-        this.addCoroselsUrl = "https://www.blogsar.com/easy_mall_apis/addCorosel.php";
-        this.deleteCoroselsUrl = "https://www.blogsar.com/easy_mall_apis/deleteCorosel.php";
+        this.getCoroselsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getCoroselImages.php";
+        this.addCoroselsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/addCorosel.php";
+        this.deleteCoroselsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/deleteCorosel.php";
       } //get all corosels
 
 
@@ -3044,7 +3044,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/createProduct.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/createProduct.php";
       }
 
       _createClass(CreateProductService, [{
@@ -3130,10 +3130,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/getAllProducts.php";
-        this.deleteurl = "https://www.blogsar.com/easy_mall_apis/deleteProduct.php";
-        this.getProductUrl = "https://www.blogsar.com/easy_mall_apis/getProduct.php";
-        this.updateProductUrl = "https://www.blogsar.com/easy_mall_apis/updateProduct.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/getAllProducts.php";
+        this.deleteurl = "https://blogsar.000webhostapp.com/easy_mall_apis/deleteProduct.php";
+        this.getProductUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getProduct.php";
+        this.updateProductUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/updateProduct.php";
       }
 
       _createClass(GetAllProductsService, [{
@@ -3253,7 +3253,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.http = http;
         this.errorHandler = errorHandler; //url of logout api
 
-        this.url = "https://www.blogsar.com/easy_mall_apis/logOutAdmin.php"; //get current cookie token of logged in Adimin
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/logOutAdmin.php"; //get current cookie token of logged in Adimin
 
         this.token = this.cookieService.get('ASID');
       }
@@ -3346,8 +3346,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.getOrderedProductsUrl = "https://www.blogsar.com/easy_mall_apis/getOrderedProducts.php";
-        this.getBillingUrl = "https://www.blogsar.com/easy_mall_apis/getBillingInfo.php";
+        this.getOrderedProductsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getOrderedProducts.php";
+        this.getBillingUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getBillingInfo.php";
       } //method for getting ordered products
 
 
@@ -3881,47 +3881,26 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _services_get_data_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./services/get-data.service */
-    "./src/app/services/get-data.service.ts");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
     var AppComponent =
     /*#__PURE__*/
     function () {
-      function AppComponent(getdata) {
+      function AppComponent() {
         _classCallCheck(this, AppComponent);
-
-        this.getdata = getdata;
       }
 
       _createClass(AppComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {
-          var _this20 = this;
-
-          this.getdata.getData().subscribe(function (data) {
-            return _this20.config = data;
-          });
-          console.log(this.config);
-        }
+        value: function ngOnInit() {}
       }]);
 
       return AppComponent;
     }();
 
-    AppComponent.ctorParameters = function () {
-      return [{
-        type: _services_get_data_service__WEBPACK_IMPORTED_MODULE_1__["GetDataService"]
-      }];
-    };
-
-    AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+    AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-root',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./app.component.html */
@@ -4319,13 +4298,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(AdminGuardService, [{
         key: "canActivate",
         value: function canActivate(next, state) {
-          var _this21 = this;
+          var _this20 = this;
 
           return this.isAdminLoggedIn.isadminLoggedIn().pipe(Object(_node_modules_rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (res) {
             if (res.expression) {
               return true;
             } else {
-              _this21.route.navigate(['/admin-login']);
+              _this20.route.navigate(['/admin-login']);
             }
           }));
         }
@@ -4412,6 +4391,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(SignupGuardService, [{
         key: "canActivate",
         value: function canActivate(next, state) {
+          var _this21 = this;
+
+          var url = state.url;
+          return this.isLoggedIn.isLoggedIn().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])(function (res) {
+            if (res.expression) {
+              return true;
+            } else {
+              _this21.route.navigate(['/login']);
+            }
+          }));
+        }
+      }, {
+        key: "canActivateChild",
+        value: function canActivateChild(next, state) {
           var _this22 = this;
 
           var url = state.url;
@@ -4420,20 +4413,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               return true;
             } else {
               _this22.route.navigate(['/login']);
-            }
-          }));
-        }
-      }, {
-        key: "canActivateChild",
-        value: function canActivateChild(next, state) {
-          var _this23 = this;
-
-          var url = state.url;
-          return this.isLoggedIn.isLoggedIn().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])(function (res) {
-            if (res.expression) {
-              return true;
-            } else {
-              _this23.route.navigate(['/login']);
             }
           }));
         }
@@ -4557,24 +4536,24 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(BuyNowComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this24 = this;
+          var _this23 = this;
 
           this.getBuyNow.getBuyNowItem(this.route.snapshot.paramMap.get('product_id')).subscribe(function (res) {
             if (res) {
-              _this24.productData = res;
+              _this23.productData = res;
               console.log(res);
 
-              _this24.isLoggedIn.isLoggedIn().subscribe(function (res2) {
-                _this24.cart_items.getAdress(res2.id).subscribe(function (res3) {
-                  _this24.AllAddress = res3;
+              _this23.isLoggedIn.isLoggedIn().subscribe(function (res2) {
+                _this23.cart_items.getAdress(res2.id).subscribe(function (res3) {
+                  _this23.AllAddress = res3;
                 });
               });
             } else {
-              _this24.snack_bar.open("Product Not Found", "OK", {
+              _this23.snack_bar.open("Product Not Found", "OK", {
                 duration: 2000
               });
 
-              _this24.router.navigate(['/']);
+              _this23.router.navigate(['/']);
             }
           });
         } //place order
@@ -4582,7 +4561,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "placeOrder",
         value: function placeOrder(product_id, address, quantity) {
-          var _this25 = this;
+          var _this24 = this;
 
           if (!address || address == "First Adress is empty" || address == "First Adress is empty") {
             this.snack_bar.open("Please select Address", "OK", {
@@ -4592,12 +4571,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           this.isLoggedIn.isLoggedIn().subscribe(function (res2) {
-            _this25.getBuyNow.placeBuyNowOrders(product_id, address, quantity, res2.id).subscribe(function (res) {
-              _this25.snack_bar.open(res.message, "OK", {
+            _this24.getBuyNow.placeBuyNowOrders(product_id, address, quantity, res2.id).subscribe(function (res) {
+              _this24.snack_bar.open(res.message, "OK", {
                 duration: 2000
               });
 
-              _this25.router.navigate(['../../myOrders']);
+              _this24.router.navigate(['../../myOrders']);
             });
           });
         }
@@ -4712,11 +4691,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(CategoryComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this26 = this;
+          var _this25 = this;
 
           this.route.params.subscribe(function (queryParams) {
-            _this26.get_produc.getItemByyCategory(queryParams.category_id).subscribe(function (res) {
-              _this26.getAllProductsByCategory = res;
+            _this25.get_produc.getItemByyCategory(queryParams.category_id).subscribe(function (res) {
+              _this25.getAllProductsByCategory = res;
             });
           });
         }
@@ -4846,14 +4825,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(ExploreProductComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this27 = this;
+          var _this26 = this;
 
           this.route.snapshot.paramMap.get('product_id');
           this.getProduct.getProduct(this.route.snapshot.paramMap.get('product_id')).subscribe(function (res4) {
             if (res4) {
-              _this27.productData = res4;
+              _this26.productData = res4;
             } else {
-              _this27.router.navigate(['/']);
+              _this26.router.navigate(['/']);
             }
           });
         } //add to cart method
@@ -4861,17 +4840,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "addToCart",
         value: function addToCart(product_id, product_title) {
-          var _this28 = this;
+          var _this27 = this;
 
           this.isLoggedIn.isLoggedIn().subscribe(function (res) {
-            _this28.loginId = res.id;
+            _this27.loginId = res.id;
 
-            _this28.cart_service.addToCart(res.id, product_id, product_title).subscribe(function (res2) {
-              _this28.snack_bar.open(res2.message, "OK", {
+            _this27.cart_service.addToCart(res.id, product_id, product_title).subscribe(function (res2) {
+              _this27.snack_bar.open(res2.message, "OK", {
                 duration: 2000
               });
 
-              _this28.router.navigateByUrl('home/myCart');
+              _this27.router.navigateByUrl('home/myCart');
             });
           });
         }
@@ -5071,13 +5050,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(HomePageComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this29 = this;
+          var _this28 = this;
 
           this.corosel.getAllCorosels().subscribe(function (res) {
-            _this29.allCoroselImages = res;
+            _this28.allCoroselImages = res;
           });
           this.get_product.getProductsForHomepage().subscribe(function (res) {
-            _this29.getAllProducts = res;
+            _this28.getAllProducts = res;
           });
         }
       }]);
@@ -5205,29 +5184,29 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(HomeComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this30 = this;
+          var _this29 = this;
 
           this.loginUser.isLoggedIn().subscribe(function (res) {
-            _this30.loginId = res.id, _this30.loggedIn = res.expression, _this30.userName = res.name;
+            _this29.loginId = res.id, _this29.loggedIn = res.expression, _this29.userName = res.name;
           }); //getall  categoris
 
           this.categories.getCategories().subscribe(function (res) {
-            _this30.AllCategories = res;
+            _this29.AllCategories = res;
           }); //get loading stattus for progress bar
 
           this.loaidng.isLoaded().subscribe(function (res) {
-            return _this30.loaded = res;
+            return _this29.loaded = res;
           });
         } //logout method for doing looged out current user
 
       }, {
         key: "logoutUserr",
         value: function logoutUserr(data) {
-          var _this31 = this;
+          var _this30 = this;
 
           this.logout.logoutUser(data).subscribe(function (res) {
             if (res.expression) {
-              _this31.cookieService.delete('SSID');
+              _this30.cookieService.delete('SSID');
 
               window.location.href = "/";
             }
@@ -5371,21 +5350,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "onSubmit",
         //implement onSubmit method
         value: function onSubmit() {
-          var _this32 = this;
+          var _this31 = this;
 
           console.log("form is submitting");
           this.login.loginUser(this.loginForm.value).subscribe(function (data) {
-            _this32._message = data;
+            _this31._message = data;
 
-            _this32.snack_bar.open(data.message, "OK", {
+            _this31.snack_bar.open(data.message, "OK", {
               duration: 2000
             });
           }).add(function () {
-            if (_this32._message.code == 0) {
-              _this32.cookieService.set('SSID', _this32._message.token);
+            if (_this31._message.code == 0) {
+              _this31.cookieService.set('SSID', _this31._message.token);
 
               window.location.href = "/";
-            } else if (_this32._message.code == 4) {
+            } else if (_this31._message.code == 4) {
               window.location.href = "/";
             }
           });
@@ -5532,24 +5511,24 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(MyAccountComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this33 = this;
+          var _this32 = this;
 
           this.userInfoUpdateForm.disable();
           var id = this.route.snapshot.paramMap.get('id');
           this.user_profile.getProfileInfo(id).subscribe(function (res) {
             if (+res.mobile_number == 0) {
-              _this33.UserProfileData = res;
+              _this32.UserProfileData = res;
 
-              _this33.router.navigate(['/']);
+              _this32.router.navigate(['/']);
             } else {
-              _this33.UserProfileData = res;
+              _this32.UserProfileData = res;
 
-              _this33.userInfoUpdateForm.patchValue({
-                Name: _this33.UserProfileData[0].Name,
-                email: _this33.UserProfileData[0].email,
-                mobile_number: _this33.UserProfileData[0].mobile_number,
-                address1: _this33.UserProfileData[0].address1,
-                address2: _this33.UserProfileData[0].address2
+              _this32.userInfoUpdateForm.patchValue({
+                Name: _this32.UserProfileData[0].Name,
+                email: _this32.UserProfileData[0].email,
+                mobile_number: _this32.UserProfileData[0].mobile_number,
+                address1: _this32.UserProfileData[0].address1,
+                address2: _this32.UserProfileData[0].address2
               });
             }
           });
@@ -5563,31 +5542,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onSubmit",
         value: function onSubmit() {
-          var _this34 = this;
+          var _this33 = this;
 
           this.userInfoUpdateForm.disable();
           console.log(this.userInfoUpdateForm.value);
           this.user_profile.updateProfileInfo(this.userInfoUpdateForm.value).subscribe(function (res) {
-            _this34.snack_bar.open(res.message, "OK", {
+            _this33.snack_bar.open(res.message, "OK", {
               duration: 2000
             });
 
-            _this34.userInfoUpdateForm.disable();
+            _this33.userInfoUpdateForm.disable();
 
-            _this34.user_profile.getProfileInfo(_this34.route.snapshot.paramMap.get('id')).subscribe(function (res) {
+            _this33.user_profile.getProfileInfo(_this33.route.snapshot.paramMap.get('id')).subscribe(function (res) {
               if (+res.mobile_number == 0) {
-                _this34.UserProfileData = res;
+                _this33.UserProfileData = res;
 
-                _this34.router.navigate(['/']);
+                _this33.router.navigate(['/']);
               } else {
-                _this34.UserProfileData = res;
+                _this33.UserProfileData = res;
 
-                _this34.userInfoUpdateForm.patchValue({
-                  Name: _this34.UserProfileData[0].Name,
-                  email: _this34.UserProfileData[0].email,
-                  mobile_number: _this34.UserProfileData[0].mobile_number,
-                  address1: _this34.UserProfileData[0].address1,
-                  address2: _this34.UserProfileData[0].address2
+                _this33.userInfoUpdateForm.patchValue({
+                  Name: _this33.UserProfileData[0].Name,
+                  email: _this33.UserProfileData[0].email,
+                  mobile_number: _this33.UserProfileData[0].mobile_number,
+                  address1: _this33.UserProfileData[0].address1,
+                  address2: _this33.UserProfileData[0].address2
                 });
               }
             });
@@ -5739,23 +5718,23 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(MyCartComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this35 = this;
+          var _this34 = this;
 
           this.isLoggedIn.isLoggedIn().subscribe(function (res) {
-            _this35.cart_items.getCartItem(res.id).subscribe(function (res2) {
-              _this35.cartData = res2;
-              _this35.numbeOfItem = _this35.cartData.length;
+            _this34.cart_items.getCartItem(res.id).subscribe(function (res2) {
+              _this34.cartData = res2;
+              _this34.numbeOfItem = _this34.cartData.length;
 
-              for (var i = 0; i < _this35.cartData.length; i++) {
-                _this35.totalPrice += _this35.cartData[i].product_price * _this35.cartData[i].quantity;
+              for (var i = 0; i < _this34.cartData.length; i++) {
+                _this34.totalPrice += _this34.cartData[i].product_price * _this34.cartData[i].quantity;
               }
 
-              _this35.totalPayable = _this35.cartData.length * 20 + _this35.totalPrice;
-              _this35.deliveryFee = _this35.cartData.length * 20;
+              _this34.totalPayable = _this34.cartData.length * 20 + _this34.totalPrice;
+              _this34.deliveryFee = _this34.cartData.length * 20;
             });
 
-            _this35.cart_items.getAdress(res.id).subscribe(function (res3) {
-              _this35.AllAddress = res3;
+            _this34.cart_items.getAdress(res.id).subscribe(function (res3) {
+              _this34.AllAddress = res3;
             });
           });
         } //update item count whenn increase quantityy in cart
@@ -5763,13 +5742,41 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "updateItemCount",
         value: function updateItemCount(q, id) {
-          var _this36 = this;
+          var _this35 = this;
 
           this.totalPrice = 0;
           this.totalPayable = 0;
           this.deliveryFee = 0;
           console.log(q, id);
           this.cart_items.updateCartItemCount(q, id).subscribe(function (res) {
+            _this35.snack_bar.open(res.message, "OK", {
+              duration: 2000
+            });
+
+            _this35.isLoggedIn.isLoggedIn().subscribe(function (res) {
+              _this35.cart_items.getCartItem(res.id).subscribe(function (res2) {
+                _this35.cartData = res2;
+
+                for (var i = 0; i < _this35.cartData.length; i++) {
+                  _this35.totalPrice += _this35.cartData[i].product_price * _this35.cartData[i].quantity;
+                }
+
+                _this35.totalPayable = _this35.cartData.length * 20 + _this35.totalPrice;
+                _this35.deliveryFee = _this35.cartData.length * 20;
+              });
+            });
+          });
+        } //remove an item from cart
+
+      }, {
+        key: "removeItem",
+        value: function removeItem(id) {
+          var _this36 = this;
+
+          this.totalPrice = 0;
+          this.totalPayable = 0;
+          this.deliveryFee = 0;
+          this.cart_items.deleteCartItem(id).subscribe(function (res) {
             _this36.snack_bar.open(res.message, "OK", {
               duration: 2000
             });
@@ -5777,6 +5784,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             _this36.isLoggedIn.isLoggedIn().subscribe(function (res) {
               _this36.cart_items.getCartItem(res.id).subscribe(function (res2) {
                 _this36.cartData = res2;
+                _this36.numbeOfItem = _this36.cartData.length;
 
                 for (var i = 0; i < _this36.cartData.length; i++) {
                   _this36.totalPrice += _this36.cartData[i].product_price * _this36.cartData[i].quantity;
@@ -5787,40 +5795,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               });
             });
           });
-        } //remove an item from cart
-
-      }, {
-        key: "removeItem",
-        value: function removeItem(id) {
-          var _this37 = this;
-
-          this.totalPrice = 0;
-          this.totalPayable = 0;
-          this.deliveryFee = 0;
-          this.cart_items.deleteCartItem(id).subscribe(function (res) {
-            _this37.snack_bar.open(res.message, "OK", {
-              duration: 2000
-            });
-
-            _this37.isLoggedIn.isLoggedIn().subscribe(function (res) {
-              _this37.cart_items.getCartItem(res.id).subscribe(function (res2) {
-                _this37.cartData = res2;
-                _this37.numbeOfItem = _this37.cartData.length;
-
-                for (var i = 0; i < _this37.cartData.length; i++) {
-                  _this37.totalPrice += _this37.cartData[i].product_price * _this37.cartData[i].quantity;
-                }
-
-                _this37.totalPayable = _this37.cartData.length * 20 + _this37.totalPrice;
-                _this37.deliveryFee = _this37.cartData.length * 20;
-              });
-            });
-          });
         }
       }, {
         key: "placeOrder",
         value: function placeOrder(user_id, address) {
-          var _this38 = this;
+          var _this37 = this;
 
           if (!address || address == "First Adress is empty" || address == "First Adress is empty") {
             this.snack_bar.open("Please provide an address", "OK", {
@@ -5830,11 +5809,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           this.cart_items.placeCartOrders(user_id, address).subscribe(function (res) {
-            _this38.snack_bar.open(res.message, "OK", {
+            _this37.snack_bar.open(res.message, "OK", {
               duration: 2000
             });
 
-            _this38.router.navigate(['../myOrders']);
+            _this37.router.navigate(['../myOrders']);
           });
         }
       }]);
@@ -5943,13 +5922,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(MyOrdersComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this39 = this;
+          var _this38 = this;
 
           this.isLoggedIn.isLoggedIn().subscribe(function (res) {
             console.log(res.id);
 
-            _this39.myOrders.getMyOrdersItems(res.id).subscribe(function (res2) {
-              _this39.MyOrdersData = res2;
+            _this38.myOrders.getMyOrdersItems(res.id).subscribe(function (res2) {
+              _this38.MyOrdersData = res2;
             });
           });
         }
@@ -6084,17 +6063,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onSubmit",
         value: function onSubmit() {
-          var _this40 = this;
+          var _this39 = this;
 
           this.signup.signup(this.signUpForm.value).subscribe(function (data) {
-            _this40._message = data;
+            _this39._message = data;
 
-            _this40.snack_bar.open(data.message, "OK", {
+            _this39.snack_bar.open(data.message, "OK", {
               duration: 2000
             });
           }).add(function () {
-            if (_this40._message.code == 0) {
-              _this40.cookieService.set('SSID', _this40._message.token);
+            if (_this39._message.code == 0) {
+              _this39.cookieService.set('SSID', _this39._message.token);
 
               window.location.href = "/";
             }
@@ -6304,8 +6283,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.buyNowUrl = "https://www.blogsar.com/easy_mall_apis/getBuyNowProduct.php";
-        this.placeOrderbuyNowUrl = "https://www.blogsar.com/easy_mall_apis/placeBuyNowOrder.php";
+        this.buyNowUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getBuyNowProduct.php";
+        this.placeOrderbuyNowUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/placeBuyNowOrder.php";
       }
 
       _createClass(BuyNowServiceService, [{
@@ -6404,12 +6383,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.addToCartUrl = "https://www.blogsar.com/easy_mall_apis/addToCart.php";
-        this.getCartItemsUrl = "https://www.blogsar.com/easy_mall_apis/getCartItems.php";
-        this.updateCartItemsCountUrl = "https://www.blogsar.com/easy_mall_apis/updateCartItemCount.php";
-        this.removeCartItemUrl = "https://www.blogsar.com/easy_mall_apis/deleteCartItem.php";
-        this.getAddressUrl = "https://www.blogsar.com/easy_mall_apis/getAdress.php";
-        this.placeCartOrderUrl = "https://www.blogsar.com/easy_mall_apis/placeCartOrders.php";
+        this.addToCartUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/addToCart.php";
+        this.getCartItemsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getCartItems.php";
+        this.updateCartItemsCountUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/updateCartItemCount.php";
+        this.removeCartItemUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/deleteCartItem.php";
+        this.getAddressUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getAdress.php";
+        this.placeCartOrderUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/placeCartOrders.php";
       }
 
       _createClass(CartServiceService, [{
@@ -6542,7 +6521,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.ErrorHandler = ErrorHandler;
-        this.getCategoryProductUrl = "https://www.blogsar.com/easy_mall_apis/ItemByCategory.php";
+        this.getCategoryProductUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/ItemByCategory.php";
       }
 
       _createClass(CategoryServiceService, [{
@@ -6639,7 +6618,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.http = http;
         this.cookieService = cookieService;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/checkUserLogin.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/checkUserLogin.php";
         this.data = {
           "token": this.cookieService.get('SSID')
         };
@@ -6747,77 +6726,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "./src/app/services/get-data.service.ts":
-  /*!**********************************************!*\
-    !*** ./src/app/services/get-data.service.ts ***!
-    \**********************************************/
-
-  /*! exports provided: GetDataService */
-
-  /***/
-  function srcAppServicesGetDataServiceTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "GetDataService", function () {
-      return GetDataService;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
-
-
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/common/http */
-    "./node_modules/@angular/common/fesm2015/http.js");
-
-    var GetDataService =
-    /*#__PURE__*/
-    function () {
-      function GetDataService(http) {
-        _classCallCheck(this, GetDataService);
-
-        this.http = http;
-        this.url = "/assets/data.json";
-        this.PHP_API_SERVER = "http://localhost/Marriage_E-Comerce/Programs/read.php";
-      }
-
-      _createClass(GetDataService, [{
-        key: "getData",
-        value: function getData() {
-          return this.http.get(this.PHP_API_SERVER);
-        }
-      }]);
-
-      return GetDataService;
-    }();
-
-    GetDataService.ctorParameters = function () {
-      return [{
-        type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]
-      }];
-    };
-
-    GetDataService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-      providedIn: 'root'
-    })], GetDataService);
-    /***/
-  },
-
-  /***/
   "./src/app/services/get-products-for-homepage.service.ts":
   /*!***************************************************************!*\
     !*** ./src/app/services/get-products-for-homepage.service.ts ***!
@@ -6875,7 +6783,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/GetProductsForHomepage.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/GetProductsForHomepage.php";
       } //return all products for home page
 
 
@@ -7045,7 +6953,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.http = http;
         this.errorHandler = errorHandler; //api url
 
-        this.loginUrl = "https://www.blogsar.com/easy_mall_apis/loginUser.php"; //headers currently not in use
+        this.loginUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/loginUser.php"; //headers currently not in use
 
         this.httpOptions = {
           headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({
@@ -7137,7 +7045,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.getMyOrdersUrl = "https://www.blogsar.com/easy_mall_apis/getMyOrders.php";
+        this.getMyOrdersUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getMyOrders.php";
       }
 
       _createClass(MyOrderServiceService, [{
@@ -7226,7 +7134,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.http = http;
         this.errorHandler = errorHandler; //api url
 
-        this.signUpUrl = "https://www.blogsar.com/easy_mall_apis/signUp.php"; //headers currently not in use
+        this.signUpUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/signUp.php"; //headers currently not in use
 
         this.httpOptions = {
           headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -7318,8 +7226,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         this.http = http;
         this.errorHandler = errorHandler;
-        this.getProfileUrl = "https://www.blogsar.com/easy_mall_apis/getProfileInfo.php";
-        this.updateUserInfoUrl = "https://www.blogsar.com/easy_mall_apis/UpdateProfile.php";
+        this.getProfileUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getProfileInfo.php";
+        this.updateUserInfoUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/UpdateProfile.php";
       }
 
       _createClass(UserProfileInfoService, [{

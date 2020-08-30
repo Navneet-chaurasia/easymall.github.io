@@ -1405,7 +1405,7 @@ let AdminLoginService = class AdminLoginService {
         this.http = http;
         this.errorHandler = errorHandler;
         //api url
-        this.loginUrl = "https://www.blogsar.com/easy_mall_apis/loginAdmin.php";
+        this.loginUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/loginAdmin.php";
         //headers currently not in use
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({
@@ -1457,7 +1457,7 @@ let AdminSignupServiceService = class AdminSignupServiceService {
         this.http = http;
         this.errorHandler = errorHandler;
         //api url
-        this.signUpUrl = "https://www.blogsar.com/easy_mall_apis/adminSignUp.php";
+        this.signUpUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/adminSignUp.php";
         //headers currently not in use
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({
@@ -1508,9 +1508,9 @@ let CategoryServicesService = class CategoryServicesService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/createCategory.php";
-        this.get_category_url = "https://www.blogsar.com/easy_mall_apis/getCategories.php";
-        this.deleteURL = "https://www.blogsar.com/easy_mall_apis/deleteCategory.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/createCategory.php";
+        this.get_category_url = "https://blogsar.000webhostapp.com/easy_mall_apis/getCategories.php";
+        this.deleteURL = "https://blogsar.000webhostapp.com/easy_mall_apis/deleteCategory.php";
     }
     createCategory(data) {
         return this.http.post(this.url, data).pipe(Object(_node_modules_rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.errorHandler.handleError));
@@ -1566,7 +1566,7 @@ let CheckLoginAdminService = class CheckLoginAdminService {
         this.http = http;
         this.cookieService = cookieService;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/checkAdminLogin.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/checkAdminLogin.php";
         this.data = {
             "token": this.cookieService.get('ASID')
         };
@@ -1614,9 +1614,9 @@ let ControlCoroselService = class ControlCoroselService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.getCoroselsUrl = "https://www.blogsar.com/easy_mall_apis/getCoroselImages.php";
-        this.addCoroselsUrl = "https://www.blogsar.com/easy_mall_apis/addCorosel.php";
-        this.deleteCoroselsUrl = "https://www.blogsar.com/easy_mall_apis/deleteCorosel.php";
+        this.getCoroselsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getCoroselImages.php";
+        this.addCoroselsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/addCorosel.php";
+        this.deleteCoroselsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/deleteCorosel.php";
     }
     //get all corosels
     getAllCorosels() {
@@ -1671,7 +1671,7 @@ let CreateProductService = class CreateProductService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/createProduct.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/createProduct.php";
     }
     craete_new_product(data) {
         console.log("h");
@@ -1716,10 +1716,10 @@ let GetAllProductsService = class GetAllProductsService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/getAllProducts.php";
-        this.deleteurl = "https://www.blogsar.com/easy_mall_apis/deleteProduct.php";
-        this.getProductUrl = "https://www.blogsar.com/easy_mall_apis/getProduct.php";
-        this.updateProductUrl = "https://www.blogsar.com/easy_mall_apis/updateProduct.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/getAllProducts.php";
+        this.deleteurl = "https://blogsar.000webhostapp.com/easy_mall_apis/deleteProduct.php";
+        this.getProductUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getProduct.php";
+        this.updateProductUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/updateProduct.php";
     }
     ngAfterViewInit() {
     }
@@ -1787,7 +1787,7 @@ let LogoutAdminService = class LogoutAdminService {
         this.http = http;
         this.errorHandler = errorHandler;
         //url of logout api
-        this.url = "https://www.blogsar.com/easy_mall_apis/logOutAdmin.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/logOutAdmin.php";
         //get current cookie token of logged in Adimin
         this.token = this.cookieService.get('ASID');
     }
@@ -1838,8 +1838,8 @@ let OrderedProductServicesService = class OrderedProductServicesService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.getOrderedProductsUrl = "https://www.blogsar.com/easy_mall_apis/getOrderedProducts.php";
-        this.getBillingUrl = "https://www.blogsar.com/easy_mall_apis/getBillingInfo.php";
+        this.getOrderedProductsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getOrderedProducts.php";
+        this.getBillingUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getBillingInfo.php";
     }
     //method for getting ordered products
     getOrderedProducts() {
@@ -2103,26 +2103,14 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _services_get_data_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./services/get-data.service */ "./src/app/services/get-data.service.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
 let AppComponent = class AppComponent {
-    constructor(getdata) {
-        this.getdata = getdata;
-    }
-    ngOnInit() {
-        this.getdata.getData().
-            subscribe((data) => this.config = data);
-        console.log(this.config);
-    }
+    ngOnInit() { }
 };
-AppComponent.ctorParameters = () => [
-    { type: _services_get_data_service__WEBPACK_IMPORTED_MODULE_1__["GetDataService"] }
-];
 AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-root',
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
@@ -3477,8 +3465,8 @@ let BuyNowServiceService = class BuyNowServiceService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.buyNowUrl = "https://www.blogsar.com/easy_mall_apis/getBuyNowProduct.php";
-        this.placeOrderbuyNowUrl = "https://www.blogsar.com/easy_mall_apis/placeBuyNowOrder.php";
+        this.buyNowUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getBuyNowProduct.php";
+        this.placeOrderbuyNowUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/placeBuyNowOrder.php";
     }
     getBuyNowItem(data) {
         this.id = {
@@ -3534,12 +3522,12 @@ let CartServiceService = class CartServiceService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.addToCartUrl = "https://www.blogsar.com/easy_mall_apis/addToCart.php";
-        this.getCartItemsUrl = "https://www.blogsar.com/easy_mall_apis/getCartItems.php";
-        this.updateCartItemsCountUrl = "https://www.blogsar.com/easy_mall_apis/updateCartItemCount.php";
-        this.removeCartItemUrl = "https://www.blogsar.com/easy_mall_apis/deleteCartItem.php";
-        this.getAddressUrl = "https://www.blogsar.com/easy_mall_apis/getAdress.php";
-        this.placeCartOrderUrl = "https://www.blogsar.com/easy_mall_apis/placeCartOrders.php";
+        this.addToCartUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/addToCart.php";
+        this.getCartItemsUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getCartItems.php";
+        this.updateCartItemsCountUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/updateCartItemCount.php";
+        this.removeCartItemUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/deleteCartItem.php";
+        this.getAddressUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getAdress.php";
+        this.placeCartOrderUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/placeCartOrders.php";
     }
     addToCart(user_id, product_id, title) {
         this.data = {
@@ -3621,7 +3609,7 @@ let CategoryServiceService = class CategoryServiceService {
     constructor(http, ErrorHandler) {
         this.http = http;
         this.ErrorHandler = ErrorHandler;
-        this.getCategoryProductUrl = "https://www.blogsar.com/easy_mall_apis/ItemByCategory.php";
+        this.getCategoryProductUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/ItemByCategory.php";
     }
     getItemByyCategory(data) {
         this.data = {
@@ -3674,7 +3662,7 @@ class CheckLoginUserService {
         this.http = http;
         this.cookieService = cookieService;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/checkUserLogin.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/checkUserLogin.php";
         this.data = {
             "token": this.cookieService.get('SSID')
         };
@@ -3739,45 +3727,6 @@ ErrorHandlerService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/services/get-data.service.ts":
-/*!**********************************************!*\
-  !*** ./src/app/services/get-data.service.ts ***!
-  \**********************************************/
-/*! exports provided: GetDataService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GetDataService", function() { return GetDataService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-
-
-
-let GetDataService = class GetDataService {
-    constructor(http) {
-        this.http = http;
-        this.url = "/assets/data.json";
-        this.PHP_API_SERVER = "http://localhost/Marriage_E-Comerce/Programs/read.php";
-    }
-    getData() {
-        return this.http.get(this.PHP_API_SERVER);
-    }
-};
-GetDataService.ctorParameters = () => [
-    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
-];
-GetDataService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-        providedIn: 'root'
-    })
-], GetDataService);
-
-
-
-/***/ }),
-
 /***/ "./src/app/services/get-products-for-homepage.service.ts":
 /*!***************************************************************!*\
   !*** ./src/app/services/get-products-for-homepage.service.ts ***!
@@ -3802,7 +3751,7 @@ let GetProductsForHomepageService = class GetProductsForHomepageService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.url = "https://www.blogsar.com/easy_mall_apis/GetProductsForHomepage.php";
+        this.url = "https://blogsar.000webhostapp.com/easy_mall_apis/GetProductsForHomepage.php";
     }
     //return all products for home page
     getProductsForHomepage() {
@@ -3896,7 +3845,7 @@ let LoginUserService = class LoginUserService {
         this.http = http;
         this.errorHandler = errorHandler;
         //api url
-        this.loginUrl = "https://www.blogsar.com/easy_mall_apis/loginUser.php";
+        this.loginUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/loginUser.php";
         //headers currently not in use
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({
@@ -3947,7 +3896,7 @@ let MyOrderServiceService = class MyOrderServiceService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.getMyOrdersUrl = "https://www.blogsar.com/easy_mall_apis/getMyOrders.php";
+        this.getMyOrdersUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getMyOrders.php";
     }
     getMyOrdersItems(data) {
         this.user_id = {
@@ -3995,7 +3944,7 @@ let SignUpService = class SignUpService {
         this.http = http;
         this.errorHandler = errorHandler;
         //api url
-        this.signUpUrl = "https://www.blogsar.com/easy_mall_apis/signUp.php";
+        this.signUpUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/signUp.php";
         //headers currently not in use
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -4046,8 +3995,8 @@ let UserProfileInfoService = class UserProfileInfoService {
     constructor(http, errorHandler) {
         this.http = http;
         this.errorHandler = errorHandler;
-        this.getProfileUrl = "https://www.blogsar.com/easy_mall_apis/getProfileInfo.php";
-        this.updateUserInfoUrl = "https://www.blogsar.com/easy_mall_apis/UpdateProfile.php";
+        this.getProfileUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/getProfileInfo.php";
+        this.updateUserInfoUrl = "https://blogsar.000webhostapp.com/easy_mall_apis/UpdateProfile.php";
     }
     getProfileInfo(data) {
         this.id = {
